@@ -21,3 +21,19 @@ a:hover {
 a:visited {
   color: green;
 }
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project-image {
+  flex: 1;
+}
+
+.project-body {
+  border: 5px solid pink;
+
+  text-align: center;
+}
