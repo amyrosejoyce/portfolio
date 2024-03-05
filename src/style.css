@@ -1,5 +1,12 @@
+:root {
+  --primary-color: #fdd6ef;
+}
+
 body {
-  color: #f8f9fb;
+  background-color: var(--primary-color);
+  color: black;
+  font-family: sans-serif;
+  padding: 0 20px;
 }
 
 a {
