@@ -1,31 +1,87 @@
 :root {
   --primary-color: #fdd6ef;
+  --text-color: #66536d;
+  --link-color: #895a9b;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   background-color: var(--primary-color);
-  color: black;
+  color: var(--text-color);
   font-family: sans-serif;
   padding: 0 20px;
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.profile-image {
+  display: flex;
+  justify-content: center;
+  border: 5px solid var(--text-color);
+  border-radius: 10px;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
 a {
-  color: blueviolet;
+  color: var(--link-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: blue;
+  color: rgba(119, 0, 255, 0.562);
 }
 
 a:visited {
-  color: green;
+  color: rgb(212, 18, 238);
 }
 
 .project-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .project-image {
@@ -36,4 +92,34 @@ a:visited {
   border: 5px solid pink;
 
   text-align: center;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
