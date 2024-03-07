@@ -13,6 +13,10 @@
   text-decoration: underline;
 }
 
+.button-custom {
+  background-color: var(--text-color);
+}
+
 body {
   background-color: var(--primary-color);
   color: var(--text-color);
@@ -63,6 +67,8 @@ h3 {
 }
 .profile-image {
   display: block;
+  max-width: 100%;
+  height: auto;
   margin: auto;
   border: 5px solid var(--text-color);
   border-radius: 10px;
