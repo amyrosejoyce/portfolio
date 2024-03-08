@@ -17,6 +17,14 @@
   background-color: var(--text-color);
 }
 
+.image-custom {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  border: 5px solid var(--text-color);
+  border-radius: 10px;
+}
 body {
   background-color: var(--primary-color);
   color: var(--text-color);
@@ -26,19 +34,6 @@ body {
   max-width: 800px;
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
 h1,
 h2,
 h3 {
