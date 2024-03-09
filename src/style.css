@@ -80,7 +80,7 @@ h3 {
   margin: 20px;
 }
 
-.contact-link {
+.primary-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -91,7 +91,7 @@ h3 {
   color: white;
 }
 
-.about-link {
+.secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
